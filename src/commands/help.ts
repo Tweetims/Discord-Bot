@@ -21,10 +21,10 @@ export class HelpCommand implements Command {
         (command) => command.commandNames[0],
       );
       await commandContext.originalMessage.reply(
-        `here is a list of commands you can run: ${commandNames.join(
+        `here is a list of commands you can run: \n${commandNames.join(
           ', ',
-        )}. Try !help ${commandNames[0]} to learn more about one of them.` +
-          '\nVersion: 0.4 https://github.com/hopskipnfall/discord-typescript-bot',
+        )}. \nTry !help ${commandNames[0]} to learn more about one of them.` +
+          '\nVersion: 0.4 https://github.com/Tweetims/Discord-Bot',
       );
       return;
     }

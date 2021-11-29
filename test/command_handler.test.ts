@@ -9,9 +9,9 @@ const buildMessage = (content: string): Message => {
 };
 
 describe('CommandHandler', () => {
-  const commandHandler = new CommandHandler('!');
+  const commandHandler = new CommandHandler('-');
 
   it('should execute a command in a message', () => {
-    const message = buildMessage('!dale');
+    const message = buildMessage('-dale');
   });
 });

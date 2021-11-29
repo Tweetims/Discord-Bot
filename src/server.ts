@@ -23,7 +23,7 @@ client.on('message', (message: Message) => {
   commandHandler.handleMessage(message);
 });
 
-client.on('error', (e) => {
+client.on('error', (e: any) => {
   console.error('Discord client error!', e);
 });
 
