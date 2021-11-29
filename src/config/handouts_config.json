@@ -1,0 +1,28 @@
+{
+    "base": ".\\Darkest Dream\\Chapter 1\\Resources\\Players\\Handouts\\Images\\",
+    "ext": ".jpg",
+    "h1": {
+        "name": "H1 - The Blue Veil Troupe"
+    },
+    "h2": {
+        "name": "H2 - The Carnivalle"
+    },
+    "h3": {
+        "name": "H3 - The Bear"
+    },
+    "h4": {
+        "name": "H4 - The Broken Shed"
+    },
+    "h5": {
+        "name": "H5 - The Map And The Message"
+    },
+    "h6": {
+        "name": "H6 - The Sigil"
+    },
+    "h7": {
+        "name": "H7 - The Old Wall"
+    },
+    "h8": {
+        "name": "H8 - The Bottom Of The Well"
+    }
+}

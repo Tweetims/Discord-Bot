@@ -1,6 +1,7 @@
-import { Message, TextChannel, Channel } from 'discord.js';
+import { Message, TextChannel } from 'discord.js';
 import { CommandContext } from '../models/command_context';
 import { Command } from './command';
+import { config } from '../config/config'
 
 export class CopyCommand implements Command {
     commandNames = ['cp'];
@@ -21,7 +22,6 @@ export class CopyCommand implements Command {
         const channelTarget: TextChannel = (await parsedUserCommand.originalMessage.client.channels.fetch(parsedUserCommand.args[1])) as TextChannel;
 
         await channelTarget.send({
-            files: Array.from(messageSrc.attachments.values()),
             content: messageSrc.content
         });
 
@@ -29,6 +29,7 @@ export class CopyCommand implements Command {
     }
 
     hasPermissionToRun(parsedUserCommand: CommandContext): boolean {
-        return true;
+        if (parsedUserCommand.originalMessage.member?.roles.cache.has(config.dmRoleId)) return true;
+        return false;
     }
 }
