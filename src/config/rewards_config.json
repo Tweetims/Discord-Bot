@@ -1,25 +1,4 @@
-export interface RewardsConfig {
-    base: string;
-    ext: string;
-    max_weight: number;
-    ability_check: Reward;
-    attack_roll: Reward;
-    extra_attack: Reward;
-    fate_point: Reward;
-    hero_point: Reward;
-    initiative: Reward;
-    perm_hp: Reward;
-    rep_point: Reward;
-    saving_throw: Reward;
-    temp_hp: Reward;
-}
-
-export interface Reward {
-    name: string;
-    weight: number;
-}
-
-export const rewards_config: RewardsConfig = {
+{
     "base": ".\\Darkest Dream\\Chapter 1\\Resources\\Gooey Rewards\\Images\\",
     "ext": ".jpg",
     "max_weight": 37,

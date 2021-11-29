@@ -1,13 +1,13 @@
 import { Command } from "./command";
 import { CommandContext } from "../models/command_context";
-import handouts_config from "../config/handouts_config.json";
+import items from "../config/items_config.json"
 
-export class HandoutsCommand implements Command {
-    commandNames = ['handouts', 'handout'];
+export class SpecialItemsCommand implements Command {
+    commandNames = ['item', 'items'];
     exclude = ['base', 'ext'];
 
     getHelpMessage(commandPrefix: string): string {
-        return `Use ${commandPrefix}handout {handout_id} to send a handout to the channel.`;
+        return `Use ${commandPrefix}item {special_item_id} to send an item to the channel.`;
     }
 
     async run(parsedUserCommand: CommandContext): Promise<void> {
@@ -18,17 +18,17 @@ export class HandoutsCommand implements Command {
 
         let handout_name = parsedUserCommand.args[0];
 
-        if (handout_name in this.exclude || !handouts_config.hasOwnProperty(handout_name)){
+        if (handout_name in this.exclude || !items.hasOwnProperty(handout_name)){
             await parsedUserCommand.originalMessage.reply(`${this.getHelpMessage(parsedUserCommand.commandPrefix)}
-            Unable to find handout ${handout_name}`);
+            Unable to find item ${handout_name}`);
             return;
         }
 
-        const handout = (<any>handouts_config)[handout_name];
+        const handout = (<any>items)[handout_name];
 
         await parsedUserCommand.originalMessage.reply({
             files: [
-                `${handouts_config.base}${handout.name}${handouts_config.ext}`
+                `${items.base}${handout.name}${items.ext}`
             ],
             content:  handout.name
         });

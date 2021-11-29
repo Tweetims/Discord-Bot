@@ -4,6 +4,7 @@ import { CopyCommand } from './commands/cp';
 import { GreetCommand } from './commands/greet';
 import { HandoutsCommand } from './commands/handouts';
 import { HelpCommand } from './commands/help';
+import { SpecialItemsCommand } from './commands/special_items';
 import { CommandContext } from './models/command_context';
 import { reactor } from './reactions/reactor';
 
@@ -17,7 +18,8 @@ export class CommandHandler {
     const commandClasses = [
       GreetCommand,
       CopyCommand,
-      HandoutsCommand
+      HandoutsCommand,
+      SpecialItemsCommand
     ];
 
     this.commands = commandClasses.map((CommandClass) => new CommandClass());
