@@ -1,0 +1,133 @@
+{
+    "base":".\\Darkest Dream\\Chapter 1\\Resources\\GM\\NPC\\Portraits\\Images\\",
+    "ext": ".jpg",
+    "a1": {
+        "name": "A1 - Condig Runecarver"
+    },
+    "a2": {
+        "name": "A2 - Jeeves Enderfelt"
+    },
+    "p1": {
+        "name": "P1 - Borag Vegla"
+    },
+    "p2": {
+        "name": "P2 - Constable Rolf Timinis"
+    },
+    "p3": {
+        "name": "P3 - Sondama Surrisin"
+    },
+    "p4": {
+        "name": "P4 - Sunessy"
+    },
+    "p5": {
+        "name": "P5 - Leena Drungan"
+    },
+    "p6": {
+        "name": "P6 - Tevren Ziss"
+    },
+    "p7": {
+        "name": "P7 - Jillian Vennex"
+    },
+    "p8": {
+        "name": "P8 - Freasha Firehair"
+    },
+    "p9": {
+        "name": "P9 - The Great Clasby"
+    },
+    "p10": {
+        "name": "P10 - Kray The Blade"
+    },
+    "p11": {
+        "name": "P11 - Brayan of the Blind Wind"
+    },
+    "p12": {
+        "name": "P12 - Woorsten"
+    },
+    "p13": {
+        "name": "P13 - Jend"
+    },
+    "p14": {
+        "name": "P14 - Big Ned"
+    },
+    "p15": {
+        "name": "P15 - Calnasse Vegla"
+    },
+    "p16": {
+        "name": "P16 - Frenne"
+    },
+    "p17": {
+        "name": "P17 - Stoof"
+    },
+    "p18": {
+        "name": "P18 - Mavea"
+    },
+    "p19": {
+        "name": "P19 - Mother Salvensa"
+    },
+    "p20": {
+        "name": "P20 - Kleista"
+    },
+    "p21": {
+        "name": "P21 - Strend"
+    },
+    "p22": {
+        "name": "P22 - Vezzy"
+    },
+    "p23": {
+        "name": "P23 - Jovessa"
+    },
+    "p24": {
+        "name": "P24 - Creeda"
+    },
+    "p25": {
+        "name": "P25 - Trom"
+    },
+    "p26": {
+        "name": "P26 - Trem"
+    },
+    "p27": {
+        "name": "P27 - Jannig"
+    },
+    "p28": {
+        "name": "P28 - Selvra"
+    },
+    "p29": {
+        "name": "P29 - Taeleen"
+    },
+    "p30": {
+        "name": "P30 - Zani"
+    },
+    "p31": {
+        "name": "P31 - Columbina"
+    },
+    "p32": {
+        "name": "P32 - Anton"
+    },
+    "p33": {
+        "name": "P33 - Chelsea"
+    },
+    "p34": {
+        "name": "P34 - Old Strem"
+    },
+    "p35": {
+        "name": "P35 - Vestia"
+    },
+    "p36": {
+        "name": "P36 - Skizzig"
+    },
+    "p37": {
+        "name": "P37 - Black Bonny"
+    },
+    "p38": {
+        "name": "P38 - Fundes Rumm"
+    },
+    "p39": {
+        "name": "P39 Smedley DeVernn"
+    },
+    "p40": {
+        "name": "P40 - Talor Crizz"
+    },
+    "p41": {
+        "name": "P41 - Tadas Sid"
+    }
+}
