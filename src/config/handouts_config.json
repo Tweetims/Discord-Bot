@@ -1,5 +1,5 @@
 {
-    "base": ".\\Darkest Dream\\Chapter 1\\Resources\\Players\\Handouts\\Images\\",
+    "base": ".\\Darkest Dream\\Chapter 1\\Resources\\GM\\Handouts\\Images\\",
     "ext": ".jpg",
     "h1": {
         "name": "H1 - The Blue Veil Troupe"
@@ -14,15 +14,177 @@
         "name": "H4 - The Broken Shed"
     },
     "h5": {
-        "name": "H5 - The Map And The Message"
+        "name": "H5 - The Map and the Message"
     },
     "h6": {
         "name": "H6 - The Sigil"
     },
     "h7": {
-        "name": "H7 - The Old Wall"
+        "name": "H7 - The Old Well"
     },
     "h8": {
-        "name": "H8 - The Bottom Of The Well"
+        "name": "H8 - The Bottom of the Well"
+    },
+    "h9": {
+        "name": "H9 - The Dark Passage"
+    },
+    "h10": {
+        "name": "H10 - The Writing on the Wall"
+    },
+    "h11": {
+        "name": "H11 - The Door of Black Iron"
+    },
+    "h12": {
+        "name": "H12 - The Room of the Mist"
+    },
+    "h13": {
+        "name": "H13 - The Bas-Relief Image"
+    },
+    "h14": {
+        "name": "H14 - The Monsters Attack"
+    },
+    "h15": {
+        "name": "H15 - The wall of the Skulls"
+    },
+    "h16": {
+        "name": "H16 - The Sacks of Death"
+    },
+    "h17": {
+        "name": "H17 - The Giant Spider"
+    },
+    "h18": {
+        "name": "H18 - The Strange Blobs"
+    },
+    "h19": {
+        "name": "H19 - The Chamber of the Webs"
+    },
+    "h20": {
+        "name": "H20 - The Brood Queen"
+    },
+    "h21": {
+        "name": "H21 - The Riddle of the Stone"
+    },
+    "h22": {
+        "name": "H22 - The Ancient Door"
+    },
+    "h23": {
+        "name": "H23 - The Wagons of Tastes & Smiles"
+    },
+    "h24": {
+        "name": "H24 - The Gambling Tents"
+    },
+    "h25": {
+        "name": "H25 - The Archery Range"
+    },
+    "h26": {
+        "name": "H26 - The Wrestling Field"
+    },
+    "h27": {
+        "name": "H27 - The Wagon of Sweets & Tent of Warm Feelings"
+    },
+    "h28": {
+        "name": "H28 - The Tent of Veils"
+    },
+    "h29": {
+        "name": "H29 - The Seeress's Tent"
+    },
+    "h30": {
+        "name": "H30 - Mother Salvensa's Vision"
+    },
+    "h31": {
+        "name": "H31 - The Blue Veil Yuntas"
+    },
+    "h32": {
+        "name": "H32 - The Puppet Show"
+    },
+    "h33": {
+        "name": "H33 - Seller's Row"
+    },
+    "h34": {
+        "name": "H34 - The Beast Wagons"
+    },
+    "h35": {
+        "name": "H35 - The Boar Pens"
+    },
+    "h36": {
+        "name": "H36 - The Stage & The Old Oak"
+    },
+    "h37": {
+        "name": "H37 - The Tall Tent"
+    },
+    "h38": {
+        "name": "H38 - The Tent of Jests"
+    },
+    "h39": {
+        "name": "H39 - The Candle Theif"
+    },
+    "h40": {
+        "name": "H40 - The Tents of Illusions"
+    },
+    "h41": {
+        "name": "H41 - Mushrooms & Bubbles"
+    },
+    "h42": {
+        "name": "H42 - The Blue Forest"
+    },
+    "h43": {
+        "name": "H43 - The Dark Forest"
+    },
+    "h44": {
+        "name": "H44 - The Cave & The Frog"
+    },
+    "h45": {
+        "name": "H45 - The Purple Lake"
+    },
+    "h46": {
+        "name": "H46 - Zuri's Predicament"
+    },
+    "h47": {
+        "name": "H47 - The Snakes"
+    },
+    "h48": {
+        "name": "H48 - The Dark Burrow"
+    },
+    "h49": {
+        "name": "H49 - The Tapestry Room"
+    },
+    "h50": {
+        "name": "H50 - The Room of Death"
+    },
+    "h51": {
+        "name": "H51 - The Gooey Shrine"
+    },
+    "h52": {
+        "name": "H52 - Another Ancient Door"
+    },
+    "h53": {
+        "name": "H53 - The Larder"
+    },
+    "h54": {
+        "name": "H54 - The Tower Basement"
+    },
+    "h55": {
+        "name": "H55 - The Ruins of the Tower"
+    },
+    "h56": {
+        "name": "H56 - The Tower Exterior"
+    },
+    "h57": {
+        "name": "H57 - The Sky Magicks"
+    },
+    "h58": {
+        "name": "H58 - The Darktide Lanterns"
+    },
+    "h59": {
+        "name": "H59 - The Fearful Dark"
+    },
+    "h60": {
+        "name": "H60 - The Giant Centipedes"
+    },
+    "h61": {
+        "name": "H61 - The Poster on the Tree"
+    },
+    "h62": {
+        "name": "H62 - The Strange Stone"
     }
 }

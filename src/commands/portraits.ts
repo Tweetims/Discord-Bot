@@ -1,13 +1,13 @@
 import { Command } from "./command";
 import { CommandContext } from "../models/command_context";
-import items from "../config/items_config.json"
+import portraits_config from "../config/portraits_config.json";
 
-export class SpecialItemsCommand implements Command {
-    commandNames = ['item', 'items', 'i', 's'];
+export class PortraitsCommand implements Command {
+    commandNames = ['portrait', 'portraits', 'p'];
     exclude = ['base', 'ext'];
 
     getHelpMessage(commandPrefix: string): string {
-        return `Use ${commandPrefix}item {special_item_id} to send an item to the channel.`;
+        return `Use ${commandPrefix}portrait {portrait_id} to send a portrait to the channel.`;
     }
 
     async run(parsedUserCommand: CommandContext): Promise<void> {
@@ -16,21 +16,21 @@ export class SpecialItemsCommand implements Command {
             return;
         }
 
-        let handout_name = parsedUserCommand.args[0];
+        let portrait_name = parsedUserCommand.args[0];
 
-        if (handout_name in this.exclude || !items.hasOwnProperty(handout_name)){
+        if (portrait_name in this.exclude || !portraits_config.hasOwnProperty(portrait_name)){
             await parsedUserCommand.originalMessage.reply(`${this.getHelpMessage(parsedUserCommand.commandPrefix)}
-            Unable to find item ${handout_name}`);
+            Unable to find character portrait: ${portrait_name}`);
             return;
         }
 
-        const handout = (<any>items)[handout_name];
+        const portrait = (<any>portraits_config)[portrait_name];
 
         await parsedUserCommand.originalMessage.reply({
             files: [
-                `${items.base}${handout.name}${items.ext}`
+                `${portraits_config.base}${portrait.name}${portraits_config.ext}`
             ],
-            content:  handout.name
+            content:  portrait.name
         });
     }
 

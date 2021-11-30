@@ -4,6 +4,7 @@ import { CopyCommand } from './commands/cp';
 import { GreetCommand } from './commands/greet';
 import { HandoutsCommand } from './commands/handouts';
 import { HelpCommand } from './commands/help';
+import { PortraitsCommand } from './commands/portraits';
 import { RewardCommand } from './commands/rewards';
 import { SpecialItemsCommand } from './commands/special_items';
 import { CommandContext } from './models/command_context';
@@ -20,6 +21,7 @@ export class CommandHandler {
       GreetCommand,
       CopyCommand,
       HandoutsCommand,
+      PortraitsCommand,
       SpecialItemsCommand,
       RewardCommand
     ];

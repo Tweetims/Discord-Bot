@@ -1,6 +1,7 @@
 import { Command } from "./command";
 import { CommandContext } from "../models/command_context";
 import handouts_config from "../config/handouts_config.json";
+import { config } from '../config/config'
 
 export class HandoutsCommand implements Command {
     commandNames = ['handouts', 'handout', 'h'];
@@ -35,6 +36,7 @@ export class HandoutsCommand implements Command {
     }
 
     hasPermissionToRun(parsedUserCommand: CommandContext): boolean {
-        return true;
+        if (parsedUserCommand.originalMessage.member?.roles.cache.has(config.dmRoleId)) return true;
+        return false;
     }
 }
