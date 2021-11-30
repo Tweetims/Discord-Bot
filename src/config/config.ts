@@ -12,6 +12,10 @@ export type BotConfig = {
   botOwnerRoleName: string;
   /** The bot will add reactions to the command messages indicating success or failure. */
   enableReactions: boolean;
+
+  dmRoleId: string;
+
+  rewardBias: number;
 };
 
 export const config: BotConfig = {
@@ -19,4 +23,6 @@ export const config: BotConfig = {
   prefix: '-', // Command prefix. ex: -help
   botOwnerRoleName: 'bot-owner',
   enableReactions: true,
+  dmRoleId: "DM_ROLE",
+  rewardBias: 18 // -r roll this or above to draw a gooey reward
 };
