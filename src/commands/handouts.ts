@@ -3,7 +3,7 @@ import { CommandContext } from "../models/command_context";
 import handouts_config from "../config/handouts_config.json";
 
 export class HandoutsCommand implements Command {
-    commandNames = ['handouts', 'handout'];
+    commandNames = ['handouts', 'handout', 'h'];
     exclude = ['base', 'ext'];
 
     getHelpMessage(commandPrefix: string): string {

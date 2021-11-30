@@ -2,6 +2,14 @@
     "base": ".\\Darkest Dream\\Chapter 1\\Resources\\Gooey Rewards\\Images\\",
     "ext": ".jpg",
     "max_weight": 37,
+    "saving_throw": {
+        "name": "Saving Throw Advantage",
+        "weight": 5
+    },
+    "temp_hp": {
+        "name": "Temporary Hit Points",
+        "weight": 5
+    },
     "ability_check": {
         "name": "Ability Check Advantage",
         "weight": 5
@@ -10,8 +18,16 @@
         "name": "Attack Roll Advantage",
         "weight": 5
     },
+    "initiative": {
+        "name": "Initiative Roll Advantage",
+        "weight": 5
+    },
     "extra_attack": {
         "name": "Extra Attack",
+        "weight": 3
+    },
+    "perm_hp": {
+        "name": "Permanent Hit Point",
         "weight": 3
     },
     "fate_point": {
@@ -22,24 +38,8 @@
         "name": "Hero Point",
         "weight": 2
     },
-    "initiative": {
-        "name": "Initiative Roll Advantage",
-        "weight": 5
-    },
-    "perm_hp": {
-        "name": "Permanent Hit Point",
-        "weight": 3
-    },
     "rep_point": {
         "name": "Reputation Point",
         "weight": 2
-    },
-    "saving_throw": {
-        "name": "Saving Throw Advantage",
-        "weight": 5
-    },
-    "temp_hp": {
-        "name": "Temporary Hit Points",
-        "weight": 5
     }
 }

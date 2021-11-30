@@ -3,7 +3,7 @@ import { CommandContext } from "../models/command_context";
 import items from "../config/items_config.json"
 
 export class SpecialItemsCommand implements Command {
-    commandNames = ['item', 'items'];
+    commandNames = ['item', 'items', 'i'];
     exclude = ['base', 'ext'];
 
     getHelpMessage(commandPrefix: string): string {
